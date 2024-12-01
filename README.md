@@ -1,7 +1,4 @@
-Aquí tienes el resumen completo en formato **Markdown**:
-
-```markdown
-### Resumen Detallado del Código
+# Análisis sector vivienda (MCV)
 
 Este código en R realiza un análisis detallado de los datos de la encuesta de calidad de vida en Medellín para los años 2021 y 2023, centrándose en la percepción de la calidad de vida a nivel de hogares. A continuación, se detalla la estructura del código, las variables utilizadas y el modelo **Probit** implementado.
 
@@ -99,4 +96,5 @@ plot(roc_curve, main = "Curva ROC probit 2023", col = "blue", lwd = 2)
 Este código proporciona un análisis exhaustivo de los factores que afectan la percepción de la calidad de vida en Medellín entre los años 2021 y 2023. Se utilizan modelos **Probit** y **Logit** para predecir la probabilidad de una mala calidad de vida, y se evalúa el rendimiento de los modelos utilizando la curva **ROC** y el **AUC**. El análisis de márgenes permite interpretar cómo las variables explicativas influyen en la probabilidad de una mala percepción de calidad de vida, lo cual es crucial para las políticas públicas orientadas a mejorar el bienestar social en la ciudad.
 
 ---
+
 ```
